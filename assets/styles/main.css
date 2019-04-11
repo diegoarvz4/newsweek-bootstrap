@@ -1,0 +1,71 @@
+body{
+    background-color: gray;
+}
+
+.main-container{
+    width: 100%;
+}
+
+@media (min-width: 1325px) { 
+    .main-container{
+        max-width: 1325px;
+        margin: 0 auto;
+    }
+}
+
+.header-top{
+    background-color: #f72210;
+
+}
+
+.row [class^="header-"]{
+    margin-bottom: 5px;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    .row [class^="header-"]{
+        margin-bottom: 10px;
+    }
+}
+
+.header-top-date{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.header-top-title{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+@media (min-width: 1200px) { 
+    .header-top-title{
+        margin-top: 5px;
+        font-size: 7rem;
+    }
+}
+
+.header-button{
+    margin-right: 0.5px;
+     
+}
+
+/*HEADER BOTTOM*/
+
+.header-bottom{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.nav > li > a{
+    font-size: 2rem;
+    font-style: bold;
+    color: black;
+    border-right: 1px solid gray; 
+    padding-top: 0;
+    padding: 0; 
+}
+
+/*STORIES SECTIONS*/
