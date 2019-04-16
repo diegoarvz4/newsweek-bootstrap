@@ -2,6 +2,16 @@ body{
     background-color: gray;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.flex-container{
+    display: flex;
+}
+
 .main-container{
     width: 100%;
 }
@@ -23,7 +33,7 @@ body{
     color: white;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .row [class^="header-"]{
         margin-bottom: 10px;
     }
@@ -39,7 +49,7 @@ body{
     margin-top: 5px;
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 992px) { 
     .header-top-title{
         margin-top: 5px;
         font-size: 7rem;
@@ -69,3 +79,175 @@ body{
 }
 
 /*STORIES SECTIONS*/
+
+.content-story{
+    margin-top: 10px;
+}
+
+.category-title{
+    color: rgb(182, 182, 182);
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.article-title{
+    font-size: 1.5rem;
+}
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.mid{
+    margin: 10px 0;
+}
+
+.articles-hr{
+    margin: 2px 0;
+}
+
+.wrap{
+    position: relative;
+}
+
+.wrap span{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    min-height: 33px;
+    padding: 10px;
+    background-color: rgba(197, 197, 197, 0.774);
+}
+
+.wrap img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+.featured-story-article{
+    width: 100%;
+}
+
+/*MORE STORIES*/
+
+.more-stories-article{
+    width: 100%;
+}
+
+.more-stories-article *{
+    margin-top: 10px;
+}
+
+.more-stories-article img{
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.more-stories-article div{
+    margin: 0;
+    display: inline-block;
+}
+
+.more-stories-article div > h3{
+    font-size: 2rem;
+    font-style: bold;
+}
+
+.more-stories-article div > p{
+    font-size: 0.8rem;
+    color: rgb(175, 175, 175);
+}
+
+
+/*MORE STORIES END*/
+
+
+/*OPINION */
+
+.opinion-article{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.opinion-article-title{
+    font-size: 2rem;
+}
+
+.opinion-article div{
+}
+
+.opinion-article-img{
+    margin-right: 10px;
+   
+}
+
+.opinion-article-img img{
+    width: 63px;
+    height: 63px;
+}
+
+/*LATEST NEWS*/
+
+.latest-news-article {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.latest-news-article img {
+    width: 258px;
+    height: 173px;
+    margin-right: 10px;
+}
+
+@media (min-width: 780px) { 
+    .latest-news-article img {
+        width: 135px;
+        height: 90px;
+        margin-right: 10px;
+    }
+}
+
+.latest-news-article-title{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+/*SIGN-UP NEWSLETTER*/
+
+.sign-up-newsletter{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    height: 117px;
+    border: 1px solid rgb(95, 95, 95);
+    background-color: rgb(182, 182, 182);
+}
+
+/*SIGN-UP NEWSLETTER END*/
+
+/*OPINION END*/
+
+.in-the-magazine{
+    height: 40px;
+    background-color: green;
+}
+
+.editors-pick{
+    height: 40px;
+    background-color: blue;
+}
+
+
+.users-pick{
+    height: 40px;
+    background-color: red;
+}
+
+.footer{
+    height: 80px;
+    background-color: aquamarine;
+}
