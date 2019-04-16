@@ -229,25 +229,78 @@ body{
 
 /*SIGN-UP NEWSLETTER END*/
 
-/*OPINION END*/
+/*PAGE BOTTOM MAGAZINE*/
 
-.in-the-magazine{
-    height: 40px;
-    background-color: green;
+.page-bottom-magazine{
+    padding: 10px;
+    width: 100%;
 }
 
-.editors-pick{
+.page-bottom-magazine img{
+    
+    width: 100%;
+}
+
+
+/*PAGE BOTTOM MAGAZINE END*/
+
+
+/*OPINION END*/
+
+
+/*IN THE MAGAZINE */
+
+.in-the-magazine-article{
+
+}
+
+.in-the-magazine-article img{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 180px;
+}
+
+.features-title{
     height: 40px;
-    background-color: blue;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+.features-subtitle{
+    height: 40px;
+    color: red;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+.special-title{
+    justify-content: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.special-title img{
+    margin-right: 10px;
+}
+
+/*IN THE MAGAZINE END*/
+
+.editors-pick{
+   
 }
 
 
 .users-pick{
-    height: 40px;
-    background-color: red;
+   
 }
 
 .footer{
-    height: 80px;
-    background-color: aquamarine;
+   
 }
