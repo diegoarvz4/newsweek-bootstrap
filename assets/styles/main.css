@@ -1,6 +1,4 @@
-body{
-    background-color: gray;
-}
+
 
 .clearfix::after{
     content: "";
@@ -37,6 +35,8 @@ body{
     .row [class^="header-"]{
         margin-bottom: 10px;
     }
+
+    
 }
 
 .header-top-date{
@@ -69,6 +69,8 @@ body{
     padding-bottom: 10px; 
 }
 
+
+
 .nav > li > a{
     font-size: 2rem;
     font-style: bold;
@@ -76,6 +78,28 @@ body{
     border-right: 1px solid gray; 
     padding-top: 0;
     padding: 0; 
+}
+
+[class^="header-button"]{
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-color: red;
+    border: none;
+}
+
+#header-button-subscribe{
+    background-color: white;
+    color: red;
+    border: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+}
+
+@media (min-width: 992px) { 
+    #header-button-subscribe{
+        margin-bottom: 10px;
+    }
 }
 
 /*STORIES SECTIONS*/
@@ -306,9 +330,6 @@ body{
    padding: 0;
   
 }
-
-
-
 .scn-title{
     font-size: 15px;
 }
@@ -320,7 +341,158 @@ body{
     margin: 10px 0;
 }
 
+/*SUBSCRIBE SECTION*/
+
+.subscribe-section{
+    padding: 10px;
+}
+
+.subscribe-section h1{
+    font-size: 20px;
+}
+
+.subscribe-editions{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(204, 204, 204);
+}
+
+.subscribe-editions img{
+    float: left;
+    margin-right: 20px;
+    width: 120px;
+    height: 127px;
+}
+
+.breaker{
+    height: 1px;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+@media (min-width: 780px) { 
+    .breaker-parent{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) { 
+    .breaker-parent{
+        display: block;
+    }
+}
+
+
+.subscribe-editions .special-img{
+    height: 195px;
+}
+
+.subscribe-button-section{
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+/*SUBSCRIBE SECTION END*/
+
+/*MOST READ SECTION*/
+.most-read-title{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.most-read-container, .most-read-title{
+    margin-left: -15px;
+}
+
+.most-read-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.most-read-container:last-child{
+    border:0px;
+}
+
+.most-read-container img{
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 69px;
+    max-height: 69px;
+    margin-right: 10px;
+}
+
+/*MOST READ SECTION END*/
+
+
 .footer{
+   
+}
+
+.title-footer{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+.title-footer+h2{
+    color: rgb(177, 177, 177);
+    font-size: 15px;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) { 
+    .title-footer,
+    .title-footer+h2{
+        display: inline-block;
+    }
+}
+
+.social-media-footer{
+    width: 160px;
+}
+
+.more-footer-links a, .other-editions a{
+    font-size: 13px;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-right:1px solid rgb(173, 173, 173);
+}
+
+.more-footer-links a:first-child{
+    padding-left: 0;
+}
+
+.more-footer-links a:last-child{
+    border: none;
+}
+
+.other-editions div{
+    display: inline-block;
+}
+
+.other-editions div:nth-child(2){
+    margin-left: 10px;
+}
+
+.other-editions div:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-header{
    
 }
 
