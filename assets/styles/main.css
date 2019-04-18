@@ -250,9 +250,7 @@ body{
 
 /*IN THE MAGAZINE */
 
-.in-the-magazine-article{
 
-}
 
 .in-the-magazine-article img{
     width: 100%;
@@ -292,15 +290,37 @@ body{
 
 /*IN THE MAGAZINE END*/
 
-.editors-pick{
-   
+.theme-section{
+    margin-top: 40px;
+}
+
+.theme-first-news [class^="col"]{
+    margin-bottom: 20px;
+}
+
+.theme-section img{
+    width: 100%;
+}
+
+.theme-second-news-title {
+   padding: 0;
+  
 }
 
 
-.users-pick{
-   
+
+.scn-title{
+    font-size: 15px;
+}
+
+.horizontal-border{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    margin: 10px 0;
 }
 
 .footer{
    
 }
+
