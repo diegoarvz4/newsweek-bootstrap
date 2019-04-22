@@ -16,4 +16,4 @@ Grid System
 
 # Demo Project View Link
 
-[DevelopmentBranch](https://raw.githack.com/diegoarvz4/newsweek-bootstrap/tree/development/index.html)
+[Live Version](https://diegoarvz4.github.io/newsweek-bootstrap/)
